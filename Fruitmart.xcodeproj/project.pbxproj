@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA009C70274E6585004692BE /* FruitmartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009C6F274E6585004692BE /* FruitmartApp.swift */; };
+		EA009C72274E6585004692BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009C71274E6585004692BE /* ContentView.swift */; };
+		EA009C74274E658A004692BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA009C73274E658A004692BE /* Assets.xcassets */; };
+		EA009C77274E658A004692BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA009C76274E658A004692BE /* Preview Assets.xcassets */; };
+		EA009C81274E658B004692BE /* FruitmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009C80274E658B004692BE /* FruitmartTests.swift */; };
+		EA009C8B274E658B004692BE /* FruitmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009C8A274E658B004692BE /* FruitmartUITests.swift */; };
+		EA009C8D274E658B004692BE /* FruitmartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009C8C274E658B004692BE /* FruitmartUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA009C7D274E658B004692BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA009C64274E6585004692BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA009C6B274E6585004692BE;
+			remoteInfo = Fruitmart;
+		};
+		EA009C87274E658B004692BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA009C64274E6585004692BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA009C6B274E6585004692BE;
+			remoteInfo = Fruitmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA009C6C274E6585004692BE /* Fruitmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruitmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA009C6F274E6585004692BE /* FruitmartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitmartApp.swift; sourceTree = "<group>"; };
+		EA009C71274E6585004692BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA009C73274E658A004692BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA009C76274E658A004692BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA009C7C274E658B004692BE /* FruitmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA009C80274E658B004692BE /* FruitmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitmartTests.swift; sourceTree = "<group>"; };
+		EA009C86274E658B004692BE /* FruitmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA009C8A274E658B004692BE /* FruitmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitmartUITests.swift; sourceTree = "<group>"; };
+		EA009C8C274E658B004692BE /* FruitmartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitmartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA009C69274E6585004692BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA009C79274E658B004692BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA009C83274E658B004692BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA009C63274E6585004692BE = {
+			isa = PBXGroup;
+			children = (
+				EA009C6E274E6585004692BE /* Fruitmart */,
+				EA009C7F274E658B004692BE /* FruitmartTests */,
+				EA009C89274E658B004692BE /* FruitmartUITests */,
+				EA009C6D274E6585004692BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA009C6D274E6585004692BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA009C6C274E6585004692BE /* Fruitmart.app */,
+				EA009C7C274E658B004692BE /* FruitmartTests.xctest */,
+				EA009C86274E658B004692BE /* FruitmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA009C6E274E6585004692BE /* Fruitmart */ = {
+			isa = PBXGroup;
+			children = (
+				EA009C6F274E6585004692BE /* FruitmartApp.swift */,
+				EA009C71274E6585004692BE /* ContentView.swift */,
+				EA009C73274E658A004692BE /* Assets.xcassets */,
+				EA009C75274E658A004692BE /* Preview Content */,
+			);
+			path = Fruitmart;
+			sourceTree = "<group>";
+		};
+		EA009C75274E658A004692BE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA009C76274E658A004692BE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA009C7F274E658B004692BE /* FruitmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA009C80274E658B004692BE /* FruitmartTests.swift */,
+			);
+			path = FruitmartTests;
+			sourceTree = "<group>";
+		};
+		EA009C89274E658B004692BE /* FruitmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA009C8A274E658B004692BE /* FruitmartUITests.swift */,
+				EA009C8C274E658B004692BE /* FruitmartUITestsLaunchTests.swift */,
+			);
+			path = FruitmartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA009C6B274E6585004692BE /* Fruitmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA009C90274E658B004692BE /* Build configuration list for PBXNativeTarget "Fruitmart" */;
+			buildPhases = (
+				EA009C68274E6585004692BE /* Sources */,
+				EA009C69274E6585004692BE /* Frameworks */,
+				EA009C6A274E6585004692BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fruitmart;
+			productName = Fruitmart;
+			productReference = EA009C6C274E6585004692BE /* Fruitmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA009C7B274E658B004692BE /* FruitmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA009C93274E658B004692BE /* Build configuration list for PBXNativeTarget "FruitmartTests" */;
+			buildPhases = (
+				EA009C78274E658B004692BE /* Sources */,
+				EA009C79274E658B004692BE /* Frameworks */,
+				EA009C7A274E658B004692BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA009C7E274E658B004692BE /* PBXTargetDependency */,
+			);
+			name = FruitmartTests;
+			productName = FruitmartTests;
+			productReference = EA009C7C274E658B004692BE /* FruitmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA009C85274E658B004692BE /* FruitmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA009C96274E658B004692BE /* Build configuration list for PBXNativeTarget "FruitmartUITests" */;
+			buildPhases = (
+				EA009C82274E658B004692BE /* Sources */,
+				EA009C83274E658B004692BE /* Frameworks */,
+				EA009C84274E658B004692BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA009C88274E658B004692BE /* PBXTargetDependency */,
+			);
+			name = FruitmartUITests;
+			productName = FruitmartUITests;
+			productReference = EA009C86274E658B004692BE /* FruitmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA009C64274E6585004692BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EA009C6B274E6585004692BE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					EA009C7B274E658B004692BE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EA009C6B274E6585004692BE;
+					};
+					EA009C85274E658B004692BE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = EA009C6B274E6585004692BE;
+					};
+				};
+			};
+			buildConfigurationList = EA009C67274E6585004692BE /* Build configuration list for PBXProject "Fruitmart" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA009C63274E6585004692BE;
+			productRefGroup = EA009C6D274E6585004692BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA009C6B274E6585004692BE /* Fruitmart */,
+				EA009C7B274E658B004692BE /* FruitmartTests */,
+				EA009C85274E658B004692BE /* FruitmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA009C6A274E6585004692BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA009C77274E658A004692BE /* Preview Assets.xcassets in Resources */,
+				EA009C74274E658A004692BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA009C7A274E658B004692BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA009C84274E658B004692BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA009C68274E6585004692BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA009C72274E6585004692BE /* ContentView.swift in Sources */,
+				EA009C70274E6585004692BE /* FruitmartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA009C78274E658B004692BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA009C81274E658B004692BE /* FruitmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA009C82274E658B004692BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA009C8B274E658B004692BE /* FruitmartUITests.swift in Sources */,
+				EA009C8D274E658B004692BE /* FruitmartUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA009C7E274E658B004692BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA009C6B274E6585004692BE /* Fruitmart */;
+			targetProxy = EA009C7D274E658B004692BE /* PBXContainerItemProxy */;
+		};
+		EA009C88274E658B004692BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA009C6B274E6585004692BE /* Fruitmart */;
+			targetProxy = EA009C87274E658B004692BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA009C8E274E658B004692BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA009C8F274E658B004692BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA009C91274E658B004692BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fruitmart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Fruitmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA009C92274E658B004692BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fruitmart/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Fruitmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA009C94274E658B004692BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FruitmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruitmart.app/Fruitmart";
+			};
+			name = Debug;
+		};
+		EA009C95274E658B004692BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FruitmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruitmart.app/Fruitmart";
+			};
+			name = Release;
+		};
+		EA009C97274E658B004692BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FruitmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fruitmart;
+			};
+			name = Debug;
+		};
+		EA009C98274E658B004692BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.FruitmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fruitmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA009C67274E6585004692BE /* Build configuration list for PBXProject "Fruitmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA009C8E274E658B004692BE /* Debug */,
+				EA009C8F274E658B004692BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA009C90274E658B004692BE /* Build configuration list for PBXNativeTarget "Fruitmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA009C91274E658B004692BE /* Debug */,
+				EA009C92274E658B004692BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA009C93274E658B004692BE /* Build configuration list for PBXNativeTarget "FruitmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA009C94274E658B004692BE /* Debug */,
+				EA009C95274E658B004692BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA009C96274E658B004692BE /* Build configuration list for PBXNativeTarget "FruitmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA009C97274E658B004692BE /* Debug */,
+				EA009C98274E658B004692BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA009C64274E6585004692BE /* Project object */;
+}
