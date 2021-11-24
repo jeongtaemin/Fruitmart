@@ -14,6 +14,7 @@
 		EA009C81274E658B004692BE /* FruitmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009C80274E658B004692BE /* FruitmartTests.swift */; };
 		EA009C8B274E658B004692BE /* FruitmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009C8A274E658B004692BE /* FruitmartUITests.swift */; };
 		EA009C8D274E658B004692BE /* FruitmartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009C8C274E658B004692BE /* FruitmartUITestsLaunchTests.swift */; };
+		EA009C9C274E669C004692BE /* ProductData.json in Resources */ = {isa = PBXBuildFile; fileRef = EA009C9B274E669C004692BE /* ProductData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		EA009C86274E658B004692BE /* FruitmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruitmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA009C8A274E658B004692BE /* FruitmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitmartUITests.swift; sourceTree = "<group>"; };
 		EA009C8C274E658B004692BE /* FruitmartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitmartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA009C9A274E6663004692BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EA009C9B274E669C004692BE /* ProductData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ProductData.json; path = "../../../../Downloads/SweetSwiftUI-master/FruitMart/Resources/ProductData.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +97,10 @@
 		EA009C6E274E6585004692BE /* Fruitmart */ = {
 			isa = PBXGroup;
 			children = (
+				EA009C9A274E6663004692BE /* Info.plist */,
+				EA009C99274E65F6004692BE /* Resources */,
 				EA009C6F274E6585004692BE /* FruitmartApp.swift */,
 				EA009C71274E6585004692BE /* ContentView.swift */,
-				EA009C73274E658A004692BE /* Assets.xcassets */,
 				EA009C75274E658A004692BE /* Preview Content */,
 			);
 			path = Fruitmart;
@@ -125,6 +129,15 @@
 				EA009C8C274E658B004692BE /* FruitmartUITestsLaunchTests.swift */,
 			);
 			path = FruitmartUITests;
+			sourceTree = "<group>";
+		};
+		EA009C99274E65F6004692BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA009C9B274E669C004692BE /* ProductData.json */,
+				EA009C73274E658A004692BE /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +246,7 @@
 			files = (
 				EA009C77274E658A004692BE /* Preview Assets.xcassets in Resources */,
 				EA009C74274E658A004692BE /* Assets.xcassets in Resources */,
+				EA009C9C274E669C004692BE /* ProductData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,9 +435,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fruitmart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fruitmart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,9 +463,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fruitmart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fruitmart/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
