@@ -22,6 +22,12 @@
 		EA009CA9274E67EF004692BE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009CA6274E67EF004692BE /* Product.swift */; };
 		EA009CAE274E6890004692BE /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009CAB274E6890004692BE /* ProductDetailView.swift */; };
 		EA009CAF274E6890004692BE /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA009CAC274E6890004692BE /* ProductRow.swift */; };
+		EAF6AE92274FB64A00BFAECD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6AE91274FB64A00BFAECD /* Recipe.swift */; };
+		EAF6AE95274FB6AC00BFAECD /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6AE94274FB6AC00BFAECD /* RecipeView.swift */; };
+		EAF6AE99274FB84C00BFAECD /* ResizedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6AE98274FB84C00BFAECD /* ResizedImage.swift */; };
+		EAF6AE9B274FB9DF00BFAECD /* Stripes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6AE9A274FB9DF00BFAECD /* Stripes.swift */; };
+		EAF6AE9E274FBAA400BFAECD /* ShapeClipModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6AE9D274FBAA400BFAECD /* ShapeClipModifier.swift */; };
+		EAF6AEA0274FBAFB00BFAECD /* AnyTransitionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF6AE9F274FBAFB00BFAECD /* AnyTransitionExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,12 @@
 		EA009CA6274E67EF004692BE /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		EA009CAB274E6890004692BE /* ProductDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		EA009CAC274E6890004692BE /* ProductRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+		EAF6AE91274FB64A00BFAECD /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		EAF6AE94274FB6AC00BFAECD /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		EAF6AE98274FB84C00BFAECD /* ResizedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizedImage.swift; sourceTree = "<group>"; };
+		EAF6AE9A274FB9DF00BFAECD /* Stripes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stripes.swift; sourceTree = "<group>"; };
+		EAF6AE9D274FBAA400BFAECD /* ShapeClipModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeClipModifier.swift; sourceTree = "<group>"; };
+		EAF6AE9F274FBAFB00BFAECD /* AnyTransitionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +123,7 @@
 		EA009C6E274E6585004692BE /* Fruitmart */ = {
 			isa = PBXGroup;
 			children = (
+				EAF6AE96274FB82800BFAECD /* New Group */,
 				EA009CAA274E686F004692BE /* View */,
 				EA009CA3274E67E0004692BE /* Model */,
 				EA009C9D274E67A5004692BE /* Helper */,
@@ -160,6 +173,8 @@
 		EA009C9D274E67A5004692BE /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				EAF6AE9C274FBA9000BFAECD /* ViewModifier */,
+				EAF6AE97274FB83900BFAECD /* CustomView */,
 				EA009C9E274E67B9004692BE /* Extension */,
 			);
 			path = Helper;
@@ -170,6 +185,7 @@
 			children = (
 				EA009C9F274E67C9004692BE /* BundleExtension.swift */,
 				EA009CA0274E67C9004692BE /* ColorExtension.swift */,
+				EAF6AE9F274FBAFB00BFAECD /* AnyTransitionExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -180,6 +196,7 @@
 				EA009CA5274E67EF004692BE /* AppSetting.swift */,
 				EA009CA6274E67EF004692BE /* Product.swift */,
 				EA009CA4274E67EF004692BE /* Store.swift */,
+				EAF6AE91274FB64A00BFAECD /* Recipe.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -187,10 +204,43 @@
 		EA009CAA274E686F004692BE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EAF6AE93274FB68A00BFAECD /* Recipe */,
 				EA009CAB274E6890004692BE /* ProductDetailView.swift */,
 				EA009CAC274E6890004692BE /* ProductRow.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EAF6AE93274FB68A00BFAECD /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				EAF6AE94274FB6AC00BFAECD /* RecipeView.swift */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		EAF6AE96274FB82800BFAECD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		EAF6AE97274FB83900BFAECD /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				EAF6AE98274FB84C00BFAECD /* ResizedImage.swift */,
+				EAF6AE9A274FB9DF00BFAECD /* Stripes.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		EAF6AE9C274FBA9000BFAECD /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				EAF6AE9D274FBAA400BFAECD /* ShapeClipModifier.swift */,
+			);
+			path = ViewModifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,12 +377,18 @@
 				EA009CA7274E67EF004692BE /* Store.swift in Sources */,
 				EA009CAE274E6890004692BE /* ProductDetailView.swift in Sources */,
 				EA009C72274E6585004692BE /* ContentView.swift in Sources */,
+				EAF6AE9B274FB9DF00BFAECD /* Stripes.swift in Sources */,
 				EA009CA8274E67EF004692BE /* AppSetting.swift in Sources */,
+				EAF6AE95274FB6AC00BFAECD /* RecipeView.swift in Sources */,
+				EAF6AEA0274FBAFB00BFAECD /* AnyTransitionExtension.swift in Sources */,
 				EA009C70274E6585004692BE /* FruitmartApp.swift in Sources */,
+				EAF6AE99274FB84C00BFAECD /* ResizedImage.swift in Sources */,
+				EAF6AE9E274FBAA400BFAECD /* ShapeClipModifier.swift in Sources */,
 				EA009CA1274E67C9004692BE /* BundleExtension.swift in Sources */,
 				EA009CA2274E67C9004692BE /* ColorExtension.swift in Sources */,
 				EA009CA9274E67EF004692BE /* Product.swift in Sources */,
 				EA009CAF274E6890004692BE /* ProductRow.swift in Sources */,
+				EAF6AE92274FB64A00BFAECD /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
